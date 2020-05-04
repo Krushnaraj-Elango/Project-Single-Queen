@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="master_css.css">
+    <title>Queen Movement</title>
+</head>
+<body>
+    <div class="front">
+        <label for="dir">Select a direction:</label><br>
+        <select id="dir">
+            <option value="none">Select a direction</option>
+            <option value="N">North</option>
+            <option value="S">South</option>
+            <option value="E">East</option>
+            <option value="W">West</option>
+            <option value="NE">North-East</option>
+            <option value="NW">North-West</option>
+            <option value="SE">South-East</option>
+            <option value="SW">South-West</option>
+        </select><br>
+        <label for="hop">Number of Hops:</label><br>
+        <input type="text" id="hop" value="0"><br>
+        <div class="action">
+            <button id="exe" onclick="execute()">Execute</button><br>
+            <INPUT id="refresh" TYPE="button" onClick="history.go(0)" VALUE="Refresh">
+        </div>
+        <script src="./Scripts.js">
+        </script>
+    </div>
+    <p id="demo"></p>
+    <p id="x-axis"><p id="y-axis"></p></p>
+    <p id="note"><strong>Note:</strong> Select which direction the Queen must move and how many steps.</p><br>
+</body>
+</html>

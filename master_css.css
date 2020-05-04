@@ -1,0 +1,54 @@
+*{
+	background-color: #9d9d9e;
+	text-align: center;
+}
+div{
+	border: 8px solid black;
+}
+div div{
+	border: 4px solid grey;
+}
+.front{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#dir{
+	background-color: black;
+	color: white;
+}
+
+option{
+	background-color: black;
+}
+
+#hop{
+	background-color: white;
+	color: black;
+}
+
+.action{
+	display: flex;
+	flex-direction: row;
+	background-color: grey;
+	border-radius: 10%
+}
+
+#exe{
+	background-color: #f05e1f;
+	color: black;
+	margin-right: 30px;
+	margin-left: 10px;
+	border-radius: 20%
+}
+
+#refresh{
+	display: flex;
+	margin-right: 10px;
+	background-color: #f05e1f;
+	color: black;
+	border-radius: 20%
+}
